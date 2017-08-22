@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "mac或者linux下adb连接不上"
-tags: "工作"
+tags: 
 comment: true
 image: 
 published: true
