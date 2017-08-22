@@ -1,4 +1,14 @@
-#mac或者linux下adb连接不上
+---
+layout: post
+title: "mac或者linux下adb连接不上"
+tags: "工作"
+comment: true
+image: 
+published: true
+date: 2017-08-22
+---
+
+# 
 
 相信很多开发者或者用户遇到部分手机adb链接不上。在windows下原因很多，很多时候因为adb冲突，在windows上太多的软件有adb链接，各自有各自的adb，例如腾讯的tadb等等。
 	下面还是说说Linux系列上的adb连接问题吧
