@@ -8,7 +8,7 @@ published: true
 date: 2012-01-15
 ---
 
-开了个非技术博客，写写神话梦话废话醉话。
+博客
 
 博客依然是用[Jekyll](https://github.com/mojombo/jekyll)做的，不喜欢自己网站上有广告。用的很简单的主题，有点小清新的感觉。
 
