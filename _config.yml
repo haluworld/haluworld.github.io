@@ -21,11 +21,11 @@ kramdown:
   use_coderay: false
 
 JB :
-  IMAGE_PATH : http://coolshell.info/images
+  IMAGE_PATH : /images
 
 # presonal config
 domain: http://coolshell.info
-title: Lippi-浮生志
+title: Halu-World
 description: Draw my life with code
 author: Lippi.OuYang
 email: ouyanglip@gmail.com
