@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "mac或者linux下adb连接不上"
-tags:
 comment: true
-image:
+categories : [other, programming,]
+tags:   [blog]
 published: true
 date: 2017-08-22
 ---
