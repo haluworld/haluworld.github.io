@@ -3,7 +3,7 @@
         热门文章
       </div>
 
- <ul class="list-unstyled">
+ <!-- <ul class="list-unstyled">
 <li><a href="/blog/2014/07/qualified-programmer-should-read-what-books.html" class="categories-list-item">一个合格的程序员应该读过哪些书</a></li>
 <li><a href="/blog/2014/12/c-open-project.html" class="categories-list-item">值得推荐的C/C++框架和库</a></li>
 <li><a href="/blog/2014/12/c-code-opt.html" class="categories-list-item">C代码优化小贴士</a></li>	
@@ -14,5 +14,25 @@
 <li><a href="/blog/2014/10/android-opensource.html" class="categories-list-item">值得推荐的android开源框架</a></li>	 
 
 	 
-     </ul>
+     </ul> -->
+
+        {% for category in site.categories %}
+	<div post-cate="{{category | first}}">
+
+          <ul class="posts">
+            {% for posts in category  %}
+              {% for post in posts %}
+                {% if post.url %}
+		<li>
+                  <a href="{{ post.url }}" class="post-list-item">
+                    <h2>{{ post.title }}</h2>
+                    <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                  </a>
+		</li>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          </ul>
+	</div>
+        {% endfor %}
 </div>
