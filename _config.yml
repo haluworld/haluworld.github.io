@@ -5,3 +5,4 @@ paginate: 10
 url: http://looku.me
 
 baseurl: '/'
+theme: jekyll-theme-cayman
