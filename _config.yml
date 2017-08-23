@@ -1,36 +1,7 @@
-meta:
-    site_title: "Halu博客"
-    site_subtitle: "被明月配宝璐"
-    site_language: "zh-cn"
-    absolute_baseurl: http://looku.me
-    domain: looku.me
-    author:
-        full_name: Halu
-        short_name: lucien
-        name: 
-        email: luccsu@qq.com
+name: HaluWorld
+description: “被明月配宝璐”
+paginate: 10
 
 url: http://looku.me
 
-baseurl: /
-
-markdown: kramdown
-
-# markdown: maruku
-# maruku:
-#   use_divs: true
-#    use_tex: true
-#    png_engine : blahtex
-#    png_dir    : images/latex/
-#    png_url    : /images/latex/
-
-pygments: false
-permalink: /:year/:month/:day/:title
-
-disqus_short_name: lu
-
-      
-css:
-    - css/screen.css
-
-
+baseurl: '/'
