@@ -2,7 +2,10 @@
 layout: default
 title: "分类：Categories"
 ---
-<script type="text/javascript">
+
+
+<div id="index" class="row">
+	<script type="text/javascript">
 
 function GetQueryString(name)
 {
@@ -15,8 +18,6 @@ function GetQueryString(name)
     curTag = GetQueryString("cat"),
     archieves = data[curTag];
 </script>
-
-<div id="index" class="row">
     <div class="post-area">
      	 <div class="post-list-body">
         <div post-cate="All">
