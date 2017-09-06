@@ -13,10 +13,7 @@ function GetQueryString(name)
      var r = window.location.search.substr(1).match(reg);
      if(r!=null)return  unescape(r[2]); return null;
 }
-	// var dataStr = '{ {% for cat in site.categories %}{% if cat[0] != site.categories.first[0] %},{% endif %}"{{ cat[0] }}":[{% for post in cat[1] %}{% if post != cat[1].first %},{% endif %}{"url":"{{post.url}}", "title":"{{post.title}}","desc":"{% if post.excerpt.size > 32 %}{{ post.excerpt }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}", "date":"{{post.date | date:"%d/%m/%Y"}}"}{% endfor %}]{% endfor %} }',
- //    data = JSON.parse(dataStr),
- //    curTag = GetQueryString("cat"),
- //    archieves = data[curTag];
+	
 </script>
 <!-- Loop output paged posts -->
 <div id="index" class="row">
