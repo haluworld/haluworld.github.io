@@ -22,7 +22,7 @@ function GetQueryString(name)
      	 <div class="post-list-body">
         <div post-cate="All">
         <ul class="posts">
-	{% for post in {{archieves}} %}
+	{% for post in archieves %}
 	<li>	
 	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 	<span class="date">{{ post.date | date_to_string }}</span>
