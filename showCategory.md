@@ -2,6 +2,7 @@
 layout: default
 title: "分类：Categories"
 ---
+<script type="text/javascript" src="/js/jquery-1.11.0.js"></script>
 <script type="text/javascript">
 	var dataStr = '{ {% for cat in site.categories %}{% if cat[0] != site.categories.first[0] %},{% endif %}"{{ cat[0] }}":[{% for post in cat[1] %}{% if post != cat[1].first %},{% endif %}{"url":"{{post.url}}", "title":"{{post.title}}", "date":"{{post.date | date:"%d/%m/%Y"}}"}{% endfor %}]{% endfor %} }',
     data = JSON.parse(dataStr),
